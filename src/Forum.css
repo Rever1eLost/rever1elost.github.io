@@ -1,0 +1,57 @@
+/* Forum.css */
+
+/* Добавляем контейнер для сетки и центрируем его содержимое */
+.sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки равной ширины */
+  gap: 20px; /* Расстояние между блоками */
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрируем контейнер по горизонтали */
+}
+
+.forum-container {
+  padding: 20px;
+}
+
+.section {
+  /* Удалите flex: 1; и margin: 0 10px; */
+}
+
+.topics {
+  list-style: none;
+  padding-left: 0;
+}
+
+.topics li {
+  margin-bottom: 10px;
+}
+
+.topics li a {
+  color: #00c900;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.topics li a:hover {
+  color: #ff00ff;
+  text-decoration: underline;
+}
+
+/* Styling for beautiful blocks */
+.beautiful-block {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.beautiful-block:hover {
+  transform: translateY(-5px);
+}
+
+.empty-space {
+  height: 120px; /* Adjust the height as needed */
+}

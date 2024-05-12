@@ -1,0 +1,70 @@
+.main-feed {
+  padding: 20px;
+}
+
+.blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  width: calc(100% );
+  position: relative;
+}
+
+.block {
+  position: relative;
+  width: calc(100% - 650px);
+  margin-left: 200px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden; /* Добавим свойство overflow, чтобы избежать проблемы с наложением */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+}
+
+.block img {
+  width: 100%; /* Сделаем изображение занимающим всю ширину блока */
+  height: auto;
+  border-radius: 8px; /* Округление углов изображения */
+  object-fit: cover; /* Обрежем изображение по размерам блока */
+  object-position: center; /* Центрируем изображение */
+  
+}
+
+.block-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.8); /* Цвет подложки для текста */
+  padding: 10px 20px; /* Добавим отступы для текста */
+  
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  margin-bottom: -20px;
+  color: #ccffcc;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgba(146, 146, 146, 0.795);
+}
+
+.block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('./ABeeZee-Regular.otf') format('opentype');
+}
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+}

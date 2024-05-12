@@ -1,0 +1,32 @@
+/* About.css */
+
+.about-container {
+    padding: 20px; /* Добавляем отступы для блока текста */
+    background-color: #007b6b; /* Устанавливаем серый цвет фона */
+  }
+  
+  .about-text {
+    color: black; /* Явно укажем черный цвет текста */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .about-text p {
+    color: black; /* Укажем черный цвет текста для абзацев внутри .about-text */
+    margin-bottom: 15px;
+  }
+  
+  
+  .about-text strong {
+    font-weight: bold; /* Устанавливаем полужирное начертание для сильного текста */
+  }
+  
+  .about-text a {
+    color: blue; /* Задаем синий цвет для ссылок */
+    text-decoration: underline; /* Добавляем подчеркивание к ссылкам */
+  }
+
+  
+  

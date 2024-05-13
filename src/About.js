@@ -1,9 +1,13 @@
 // About.js
 import React from 'react';
 import './About.css'; // Импорт CSS для стилизации
+import ResponsiveStyles from './ResponsiveStyles';
+
+<ResponsiveStyles /> 
 
 function About() {
   return (
+    
     <div className="about-container">
       <h1>About EC</h1>
       <div className="about-text">

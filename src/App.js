@@ -21,7 +21,7 @@ import {
   Outlet,
 } from "react-router-dom";
 
-<ResponsiveStyles /> {/* Включаем адаптацию стилей */}
+<ResponsiveStyles /> 
 
 const router = createBrowserRouter([
   {

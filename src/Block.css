@@ -2,7 +2,7 @@
   padding: 20px;
 }
 
-.blocks-container {
+.blocks-container { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

@@ -24,6 +24,9 @@ function About() {
         </ul>
       </div>
       {/* Добавляем пустые строки */}
+      <div className="image-container">
+        <img src="kuka.jpg" alt="EC" className="centered-image" />
+      </div>
       <br />
       <br />
       <br />
@@ -34,6 +37,7 @@ function About() {
       <br />
       <br />
       <br />
+      
     </div>
   );
 }

@@ -27,6 +27,16 @@
     color: blue; /* Задаем синий цвет для ссылок */
     text-decoration: underline; /* Добавляем подчеркивание к ссылкам */
   }
-
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .centered-image {
+    max-width: 50%; /* Устанавливаем максимальную ширину изображения */
+    height: auto; /* Поддерживаем пропорциональное изменение размера */
+  }
+  
   
   

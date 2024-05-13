@@ -17,7 +17,7 @@ import ResponsiveStyles from './ResponsiveStyles';
 function App() {
   
   const styles = {
-    backgroundImage: `url(${backgroundImage})`,
+    backgroundImage: `url(${backgroundImage})`, 
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',

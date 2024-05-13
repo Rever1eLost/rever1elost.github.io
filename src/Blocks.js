@@ -2,7 +2,7 @@ import React from 'react';
 import './Block.css'; // Импортируем файл стилей
 
 const GamingNewsBlock = () => (
-  <div className="block">
+  <div className="block" maxWidth="fixed">
     <div className="image-container">
       <img src={require('./fluxo.webp')} alt="Gaming News Image" />
     </div>

@@ -1,7 +1,7 @@
 // Header.js
 import React from 'react';
 import ResponsiveStyles from './ResponsiveStyles';
-import { Link } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -23,6 +23,7 @@ function Header() {
     </header>
   );
 }
+
 
 export default Header;
 

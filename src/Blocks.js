@@ -69,4 +69,19 @@ const PlayersOfTheMonthBlock = () => (
   </div>
 );
 
-export { GamingNewsBlock, RecentMatchesBlock, TournamentsBlock, PlayersOfTheMonthBlock };
+const HomeWithNews = () => {
+  return (
+    <div>
+      
+      
+      <div className="blocks-container">
+        <div className="block"><GamingNewsBlock /></div>
+        <div className="block"><RecentMatchesBlock /></div>
+        <div className="block"><TournamentsBlock /></div>
+        <div className="block"><PlayersOfTheMonthBlock /></div>
+      </div>
+    </div>
+  );
+}
+
+export default HomeWithNews;

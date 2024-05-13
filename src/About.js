@@ -16,12 +16,12 @@ function About() {
         <p>
           <strong>Key features</strong> EC offers a unique combination of features tailored to Counter-Strike enthusiasts, fans, and professionals, including:
         </p>
-        <ul>
-          <li>Live scores and results: We provide real-time updates on match scores, ensuring fans can keep up to date at home or on the go</li>
-          <li>Tournament Schedules: Through our event pages, you can find information about upcoming tournaments and matches</li>
-          <li>Player and Team Statistics: Access detailed insights into player performance, team dynamics, and historical data, empowering fans and analysts alike</li>
-          <li>HLTV MVP, Top 20, World Ranking, and Award Show: Celebrating excellence in Counter-Strike, these initiatives recognize and honor the outstanding achievements of players and teams, reflecting the pinnacle of skill and dedication in the game</li>
-        </ul>
+        
+        <p>Live scores and results: We provide real-time updates on match scores, ensuring fans can keep up to date at home or on the go</p>
+        <p>Tournament Schedules: Through our event pages, you can find information about upcoming tournaments and matches</p>
+        <p>Player and Team Statistics: Access detailed insights into player performance, team dynamics, and historical data, empowering fans and analysts alike</p>
+        <p>HLTV MVP, Top 20, World Ranking, and Award Show: Celebrating excellence in Counter-Strike, these initiatives recognize and honor the outstanding achievements of players and teams, reflecting the pinnacle of skill and dedication in the game</p>
+        
       </div>
       {/* Добавляем пустые строки */}
       <div className="image-container">

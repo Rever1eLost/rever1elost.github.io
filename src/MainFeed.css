@@ -1,0 +1,47 @@
+/* MainFeed.css */
+
+.main-feed {
+  padding: 20px;
+}
+
+.blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block {
+  width: calc(50% - 20px); /* 50% ширины контейнера минус отступ между блоками */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.block h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.block p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('./ABeeZee-Regular.otf') format('opentype');
+}
+
+body {
+  font-family: 'ABeeZee', sans-serif; /* Используйте шрифт ABeeZee в качестве основного шрифта */
+}
